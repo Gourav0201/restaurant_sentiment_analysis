@@ -1,19 +1,13 @@
 #!/usr/bin/env python3
 """
 Restaurant Review Sentiment Analysis
-======================================
+
 NLP pipeline that analyzes restaurant reviews and classifies
 them as Positive, Negative, or Neutral sentiment.
 
-Tech Stack:
-- NLTK — text preprocessing, tokenization, stopwords, lemmatization
-- Scikit-learn — TF-IDF + Logistic Regression
-- FastAPI — REST API backend
-- Pandas, Matplotlib, Seaborn — data analysis and visualization
-
 Author: Gourav Yadav
 """
-
+# 
 import re
 import logging
 import warnings
